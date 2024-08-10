@@ -1,3 +1,4 @@
+
 # CODTECH-Task-2
 - Name:Chatla Tharun
 - Company:CODTECH IT SOLUTIONS
@@ -162,5 +163,6 @@ resource "aws_instance" "virtual_server" {
 ![Screenshot 2024-08-05 225116](https://github.com/user-attachments/assets/aa50148a-1c32-46ae-a881-a2ac09675ef8)
 ![Screenshot 2024-08-05 225153](https://github.com/user-attachments/assets/238b5c11-7c9f-47cf-96b1-f2fb4c2c334e)
 - Then use terraform command
-
-
+- terraform init -terraform init command downloads necessary plugins and providers (like AWS, Azure, etc.) that Terraform will use to manage resources
+- terraform validate -its checks the syntax and configuration of your Terraform files
+- terraform apply - It applies the changes defined in your Terraform files to your cloud provide
