@@ -91,7 +91,8 @@ variable "instance_type" {
 - create a resource block
 ```touch resource.tf```
 - And data to file using vi visual editor
-```resource "aws_vpc" "vpc" {
+```
+resource "aws_vpc" "vpc" {
     cidr_block = "18.0.0.0/16"
 }
 resource "aws_internet_gateway" "igw" {
